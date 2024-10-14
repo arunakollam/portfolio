@@ -1,0 +1,54 @@
+/* header section------------------------------------------------------------------------------------------------  */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Grey Qo", cursive;
+}
+h1{
+    font-family: "Kalnia Glaze", serif ;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border: 3px solid blue;
+    position: sticky;
+    top: 0px;
+}
+header ul{
+    padding-right: 50px;
+    display: flex;
+}
+header ul li{
+    /* display: flex; */
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+header ul li a:hover{
+    color:rgb(174, 255, 0)
+    /* text-shadow: 7px 6px 9px rgb(228, 228, 16); */
+}
+header img{
+    border: 6px double;
+    border-radius: 50%;
+    border-color: blue;
+    padding: 5px;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+}
+/* first section-------------------------------------------------------------------------------------------------- */
+section img{
+    width: 100%;
+    height: 400px;
+}
